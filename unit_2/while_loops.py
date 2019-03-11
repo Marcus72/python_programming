@@ -56,15 +56,16 @@ while True:
     if user_in == answer:
         print('you got it')
         break
-'''
 
 #find the sum of a list of numbers
 ages = [25,39,45,41,27,18,33,65,11,50]
-sum = 0
+total_age = 0
 
 for age in ages:    
-    sum += age
+    total_age += age
 
-print('Total age is {}'.format(sum))
+print('Total age is {}'.format(total_age))
+'''
 
-#print(age)
+ages = [25,39,45,41,27,18,33,65,11,50]
+
